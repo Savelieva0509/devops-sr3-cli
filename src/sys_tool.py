@@ -1,4 +1,12 @@
-"""sys_tool.py — сценарій, що працює тільки при прямому запуску з командного рядка."""
+"""sys_tool.py — сценарій, що працює тільки при прямому запуску з командного рядка.
+
+Команди для запуску (Git Bash, з папки devops-sr3-cli):
+
+python src/sys_tool.py
+python src/sys_tool.py --help
+python src/sys_tool.py hello world
+python -c "import src.sys_tool"
+"""
 import sys
 
 HELP_TEXT = """Використання: python src/sys_tool.py [--help] [аргументи...]

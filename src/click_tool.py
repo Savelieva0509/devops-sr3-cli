@@ -1,4 +1,12 @@
-"""click_tool.py — утиліта на click з командою say."""
+"""click_tool.py — утиліта на click з командою say.
+
+Команди для запуску (Git Bash, з папки devops-sr3-cli):
+
+python src/click_tool.py --help
+python src/click_tool.py say --name Alice
+python src/click_tool.py say --name peter
+python src/click_tool.py say
+"""
 import click
 
 

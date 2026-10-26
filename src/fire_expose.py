@@ -1,4 +1,12 @@
-"""fire_expose.py — відкриває функції з utils.py для командного рядка через fire."""
+"""fire_expose.py — відкриває функції з utils.py для командного рядка через fire.
+
+Команди для запуску (Git Bash, з папки devops-sr3-cli):
+
+python src/fire_expose.py greet Alice
+python src/fire_expose.py goodbye Bob
+python src/fire_expose.py greet --name=Olena
+python src/fire_expose.py --help
+"""
 import fire
 
 from utils import greet, goodbye
